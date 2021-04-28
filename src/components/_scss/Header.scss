@@ -1,0 +1,74 @@
+// Mobile First Focussed Design
+
+header {
+  // width: 375px;
+  // height: 67px;
+  // margin: 0 0 67px;
+  // padding: 17px 223px 17px 24px;
+  background-color: var(--white);
+  h1,
+  p,
+  a,
+  .title {
+    color: #ffffff;
+    nav {
+      display: none;
+    }
+    ul {
+      // list-style: none;
+      display: flex;
+      gap: 40%;
+      .right {
+        position: absolute;
+        right: 10%;
+      }
+    }
+    a {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      p {
+        padding: 0 0 0 10px;
+      }
+    }
+  }
+  .title {
+    text-align: initial;
+    padding: 2% 10% 0 10%;
+    display: flex;
+  }
+
+  .info-header {
+    font-weight: lighter;
+    display: grid;
+    grid-auto-columns: 300px 1fr;
+    padding: 40% 10% 30% 10%;
+    text-align: left;
+
+    h1 {
+      margin: 0;
+      font-weight: lighter;
+    }
+    p {
+      margin: 10% 0 0 0;
+    }
+  }
+}
+
+// Web Second
+@media screen and (min-width: 40rem) {
+  header {
+    .title {
+      a {
+        margin: 0;
+      }
+      nav{
+        display: block;
+      }
+    }
+
+    .info-header{
+      padding: 10%;
+    }
+  }
+}

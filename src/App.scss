@@ -1,0 +1,74 @@
+$colourText: #353f44;
+$colourHeading: #384548;
+$colourNotification: #42bfdc;
+$colourPositive: #34aa44;
+$colourNegative: #f85359;
+$colourGreyBackground: #e9e9e9;
+
+html,
+body {
+  background-color: #e9e9e9;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body,
+input,
+textarea,
+select {
+  font-family: 'Work Sans', sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+.text-center {
+  text-align: center;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+.App {
+  min-height: calc(
+    100vh - 110px
+  ); /* Fallback for browsers that do not support Custom Properties */
+  min-height: calc((var(--vh, 1vh) * 100) - 110px);
+}
+
+// Hide Native Scroll
+html {
+  // overflow: scroll;
+  overflow-x: hidden;
+}
+// ::-webkit-scrollbar {
+//   width: 0;  /* Remove scrollbar space */
+//   background: transparent;  /* Optional: just make scrollbar invisible */
+// }
+// /* Optional: show position indicator in red */
+// ::-webkit-scrollbar-thumb {
+//   background: #FF0000;
+// }
+
+@media screen and (min-width: 40rem) {
+  .App {
+    min-height: calc(100vh - 110px);
+  }
+}
+
+@import "./components/_scss/Header.scss";
+@import "./components/_scss/Body.scss";
+@import "./components/_scss/Footer.scss";
