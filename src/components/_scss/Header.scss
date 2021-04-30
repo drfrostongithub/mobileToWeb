@@ -7,7 +7,10 @@ header {
   a,
   .title {
     color: #000000;
-
+    display: grid;
+    grid-template-columns: 200px auto 1fr;
+    padding: 2% 1% 2% 3%;
+    gap: 3%;
     a {
       display: flex;
       align-items: center;
@@ -19,7 +22,6 @@ header {
   }
   .iconHead {
     width: 34px;
-    padding: 2%;
     // margin: 0 2% 0 0;
     // display: flex;
   }
@@ -27,4 +29,13 @@ header {
 
 // Web Second
 @media screen and (min-width: 40rem) {
+  header {
+    .title {
+      padding: 1% 0 1% 10%;
+    }
+    .iconHead {
+      display: flex;
+      padding: 0;
+    }
+  }
 }

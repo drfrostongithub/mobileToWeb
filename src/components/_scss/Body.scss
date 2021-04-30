@@ -1,6 +1,11 @@
 main {
+  // position: relative;
   overflow: hidden;
-  min-height: inherit;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  // min-height: calc(100vh - 60.38px - 71px);
+  padding-bottom: 71px;
   .background {
     background: url("../img/modal1.svg") no-repeat center;
     background-size: cover;
