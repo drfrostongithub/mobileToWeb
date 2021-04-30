@@ -1,0 +1,19 @@
+main {
+  overflow: hidden;
+  min-height: inherit;
+  .background {
+    background: url("../img/modal1.svg") no-repeat center;
+    background-size: cover;
+    min-height: inherit;
+    // padding-bottom: 180px;
+    width: -webkit-fill-available;
+    background-color: #eebece;
+  }
+}
+
+// Web Second
+@media screen and (min-width: 40rem) {
+  main {
+    min-height: inherit;
+  }
+}

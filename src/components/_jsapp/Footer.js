@@ -5,33 +5,11 @@ export default function Footer() {
     <footer>
       <div className='wrapper'>
         <div className='title-text'>
-          <a href='/' className='icon'>
-            <img src='' alt='img' />
-            <p>RemoteFlow</p>
-          </a>
-          <p>
-            <small>Simplified on-job site management</small>
-          </p>
+          <p><span>wknd@</span>2020</p>
         </div>
 
         <div className='social-media-links'>
-          <a href='/'>
-            <img
-              className='round'
-              src=''
-              alt='linkedin-icon'
-            />
-          </a>
-          <a href='/'>
-            <img src='' alt='facebook-icon' />
-          </a>
-          <a href='/'>
-            <img
-              className='white-bg'
-              src=''
-              alt='instagram-icon'
-            />
-          </a>
+          <p>Alpha version 0.1</p>
         </div>
       </div>
     </footer>

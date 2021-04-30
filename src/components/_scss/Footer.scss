@@ -1,16 +1,16 @@
 footer {
-  background-color: #000000;
+  background-color: #0b24fb;
   color: #ffffff;
   text-align: center;
-  position: inherit;
+  position: absolute;
   bottom: 0;
   width: -webkit-fill-available;
-  padding: 10% 25% 25% 25%;
+  // padding: 10% 25% 25% 25%;
+  padding: 25px 24px 24px;
   .wrapper {
-    display: grid;
-    grid-template-rows: 50px 1fr;
-    row-gap: 100px;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     .title-text {
       white-space: nowrap;
       flex-direction: column;
@@ -20,33 +20,22 @@ footer {
         padding: 0;
         margin: 0;
       }
-      a {
-        color: #ffffff;
-        display: flex;
-        align-items: center;
-        margin: auto;
-        p {
-          padding: 0 0 0 10px;
-          font-weight: 800;
-        }
+      span {
+        font-weight: 600;
       }
     }
 
     .social-media-links {
+      border: 1px solid #ffffff;
+      border-radius: 20px;
       display: flex;
       justify-content: space-evenly;
-      a {
-        img {
-          width: 48px;
-          height: 48px;
-        }
-      }
-      .round {
-        border-radius: 5px;
-      }
-      .white-bg {
-        overflow: hidden;
-        background-color: #ffffff;
+      p {
+        font-size: 9px;
+        word-break: break-all;
+        text-align: center;
+        // margin: 3px;
+        padding: 5px;
       }
     }
   }
@@ -55,12 +44,15 @@ footer {
 // Web Second
 @media screen and (min-width: 40rem) {
   footer {
-    position: absolute;
-    padding: 3% 10% 5% 10%;
+    // position: absolute;
+    // bottom: 0;
+    // padding: 3% 10% 5% 10%;
+    // padding: 22px 213px 21px;
     margin: inherit;
     .wrapper {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
+      gap: 25%;
 
       .title-text {
         a {
