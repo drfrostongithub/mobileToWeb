@@ -45,6 +45,10 @@ strong {
     100vh + 110px
   ); /* Fallback for browsers that do not support Custom Properties */
   min-height: calc((var(--vh, 1vh) * 100) + 110px);
+  background: url("../src/components/img/modal1.svg") no-repeat;
+  background-color: #eebece;
+  background-position: center;
+  background-size: auto ;
 }
 
 html {
@@ -54,6 +58,8 @@ html {
 @media screen and (min-width: 40rem) {
   .App {
     min-height: calc(100vh - 110px);
+    background-position: top; 
+    background-size: contain
   }
 }
 
