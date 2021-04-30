@@ -9,6 +9,7 @@ import './App.scss'
 function App() {
   return (
     <div className="App">
+      {/* <div id="background1"></div> */}
       <Header />
       <Body />
       {/* <Body2 /> */}

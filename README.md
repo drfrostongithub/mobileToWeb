@@ -1,5 +1,6 @@
 ### Slider 
-https://kenwheeler.github.io/slick/
+https://kenwheeler.github.io/slick/ 
+https://react-slick.neostack.com/docs/example/responsive
 
 
 # Getting Started with Create React App
