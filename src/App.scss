@@ -8,7 +8,6 @@ body {
   background-color: #e9e9e9;
   scroll-behavior: smooth;
   height: 100%;
-  overflow-x: hidden;
 }
 body,
 input,
@@ -62,10 +61,6 @@ strong {
     background-color: #000000;
     min-height: inherit;
   }
-}
-
-html {
-  overflow: hidden;
 }
 
 /* Desktops and laptops ----------- */
