@@ -1,26 +1,18 @@
 main {
-  // overflow: hidden;
   width: 100%;
   margin: 0 auto;
-  min-height: 100vh;
-  // min-height: calc(100vh - 60.38px - 71px);
+  // min-height: inherit;
   padding-bottom: 71px;
-  .background {
-    display: grid;
-    grid-template-rows: 200px 50px 1fr;
-    min-height: inherit;
-    align-items: center;
-    justify-content: center;
+  .main {
     text-align: center;
+    margin: 15% 0 0 0;
     .jumbotron {
       color: #ffffff;
       display: grid;
-      grid-auto-rows: auto auto 100px;
-      grid-row-gap: 20%;
-      top: 30%;
-      position: relative;
+      grid-auto-rows: 100px 100px 1fr;
+      grid-row-gap: 40%;
       h1 {
-        font-size: 45px;
+        font-size: 52px;
       }
       .start-lego {
         color: #000000;
@@ -41,9 +33,44 @@ main {
   }
 }
 
-// Web Second
-@media screen and (min-width: 40rem) {
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
   main {
-    min-height: inherit;
+    .main {
+      margin: 5% 0 0 0;
+    }
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* STYLES GO HERE */
+  main {
+    .main {
+      margin: 5% 0 0 0;
+    }
+  }
+}
+
+/* iPhone 5 (portrait & landscape)----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  /* STYLES GO HERE */
+  main {
+    .main {
+      .jumbotron {
+        grid-row-gap: 60%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 653px) {
+  /* STYLES GO HERE */
+  main {
+    .main {
+      .jumbotron {
+        grid-row-gap: 60%;
+      }
+    }
   }
 }
