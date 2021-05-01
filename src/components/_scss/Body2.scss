@@ -8,12 +8,31 @@
     display: flex;
     flex-direction: row-reverse;
   }
+
+  .quote {
+    margin: 0 10%;
+    text-align: right;
+    display: grid;
+    grid-row-gap: 15%;
+    p {
+      font-weight: 600;
+    }
+    b {
+      color: #0b24fb;
+    }
+    i {
+      color: #ffffff;
+    }
+  }
 }
 
 // Web Second
 @media screen and (min-width: 40rem) {
   .body2 {
     margin: 0;
+    .quote {
+      margin: 0 35%;
+    }
   }
 }
 
