@@ -63,12 +63,20 @@ strong {
   }
 }
 
+// For Landscaping
+@media only screen and (orientation: landscape) {
+  .App {
+    min-height: calc(
+      200vh + 110px
+    ); /* Fallback for browsers that do not support Custom Properties */
+    min-height: calc((var(--vh, 1vh) * 200) + 110px);
+  }
+}
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   .App {
     #background1 {
-      // min-height: calc(100vh - 110px);
-      min-height: inherit;
       background-position: top;
       background-size: cover;
     }

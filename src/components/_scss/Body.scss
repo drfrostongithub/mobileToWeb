@@ -1,7 +1,6 @@
 main {
   width: 100%;
   margin: 0 auto;
-  min-height: inherit;
   .main {
     text-align: center;
     margin: 15% 0 0 0;
@@ -15,7 +14,6 @@ main {
       }
       .start-lego {
         color: #000000;
-        // font-size: larger;
         p {
           position: relative;
           top: -90%;
