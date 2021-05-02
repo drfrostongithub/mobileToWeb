@@ -32,6 +32,15 @@
   }
 }
 
+// For Landscaping
+@media only screen and (orientation: landscape) {
+  .body2 {
+    .bluedot {
+      margin: 0;
+    }
+  }
+}
+
 // Web Second
 @media screen and (min-width: 40rem) {
   .body2 {
@@ -41,7 +50,7 @@
     }
 
     .bluedot {
-      padding: 0 35%;
+      margin: 0 25%;
     }
   }
 }

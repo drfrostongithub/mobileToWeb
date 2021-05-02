@@ -1,4 +1,8 @@
 import * as React from 'react'
+// Slick Carousel
+// import "~slick-carousel/slick/slick.css";
+// import "~slick-carousel/slick/slick-theme.css";
+// Main Component
 import Header from './components/_jsapp/Header'
 import Body from './components/_jsapp/Body'
 import Body2 from './components/_jsapp/Body2'

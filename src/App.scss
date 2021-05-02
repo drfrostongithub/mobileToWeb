@@ -55,12 +55,13 @@ strong {
 
   #background2 {
     background-color: #eebece;
-    // min-height: calc(25vw + 10rem);
-    min-height: inherit;
+    min-height: calc(80vh + 5rem);
+    // min-height: inherit;
   }
   #background3 {
     background-color: #000000;
-    min-height: inherit;
+    // min-height: inherit;
+    min-height: calc(100vh + 5rem);
   }
 }
 
@@ -80,11 +81,15 @@ strong {
     #background1 {
       background-position: top;
       background-size: cover;
-      min-height: 100vw;
+      min-height: calc(50vw + 3rem);
     }
 
     #background2 {
-      min-height: calc(25vw + 10rem);
+      min-height: calc(30vw + 10rem);
+    }
+
+    #background3 {
+      min-height: calc(40vw + 10rem);
     }
   }
 }
@@ -112,3 +117,4 @@ strong {
 @import "./components/_scss/Footer.scss";
 @import "./components/_scss/Body2.scss";
 @import "./components/_scss/Body3.scss";
+@import "./components/_scss/Testimonials.scss";

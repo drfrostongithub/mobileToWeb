@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Lego from '../img/lego.png'
 
 const Body = () => {

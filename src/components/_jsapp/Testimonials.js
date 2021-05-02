@@ -1,18 +1,9 @@
-const Testimonials = () => {
-
-    const testi = this.props.item
-    console.log(this.props.item)
+const Testimonials = (props) => {
     return (
-        <div className='Testimonials'>
-            <p>Hi@</p>
-            <tr>
-                <td>
-                    {testi.id}
-                </td>
-                <td>
-                    {testi.testimonial}
-                </td>
-            </tr>
+        <div className='testimonial'>
+
+            <p>{props.item.testimony}</p>
+
         </div>
     );
 };

@@ -1,4 +1,3 @@
-import * as React from "react";
 import LegoHalfInverted from "../img/lego-half-inverted.png";
 import BlueDot from "../img/bluedot.svg";
 

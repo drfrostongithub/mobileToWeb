@@ -1,4 +1,3 @@
-import * as React from "react";
 import icon from "../img/iconhead.png";
 
 export default function Header() {
