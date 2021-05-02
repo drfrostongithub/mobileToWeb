@@ -23,9 +23,10 @@ const Body2 = () => {
           <i>-weekend team</i>
         </p>
       </div>
-      <img src={BlueDot}
-        className="bluedot"
-        alt='bluedot' />
+      <div className="bluedot">
+        <img src={BlueDot}
+          alt='bluedot' />
+      </div>
     </div>
   );
 };

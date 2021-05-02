@@ -41,9 +41,9 @@ strong {
 .App {
   position: relative;
   min-height: calc(
-    100vh + 110px
+    100vh + 5rem
   ); /* Fallback for browsers that do not support Custom Properties */
-  min-height: calc((var(--vh, 1vh) * 100) + 110px);
+  min-height: calc((var(--vh, 1vh) * 100) + 5rem);
 
   #background1 {
     background: url("../src/components/img/modal1.svg") no-repeat;
@@ -55,6 +55,7 @@ strong {
 
   #background2 {
     background-color: #eebece;
+    // min-height: calc(25vw + 10rem);
     min-height: inherit;
   }
   #background3 {
@@ -67,9 +68,9 @@ strong {
 @media only screen and (orientation: landscape) {
   .App {
     min-height: calc(
-      200vh + 110px
+      200vh + 10rem
     ); /* Fallback for browsers that do not support Custom Properties */
-    min-height: calc((var(--vh, 1vh) * 200) + 110px);
+    min-height: calc((var(--vh, 1vh) * 200) + 10rem);
   }
 }
 
@@ -79,6 +80,11 @@ strong {
     #background1 {
       background-position: top;
       background-size: cover;
+      min-height: 100vw;
+    }
+
+    #background2 {
+      min-height: calc(25vw + 10rem);
     }
   }
 }
@@ -105,3 +111,4 @@ strong {
 @import "./components/_scss/Body.scss";
 @import "./components/_scss/Footer.scss";
 @import "./components/_scss/Body2.scss";
+@import "./components/_scss/Body3.scss";
