@@ -1,19 +1,23 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import Testimonials from './Testimonials'
+// import Testimonials from './Testimonials'
 
 const Body3 = () => {
 
     const [testimonial, setTestimonial] = useState([])
-    const testi = []
     useEffect(() => {
         const fetchUsers = async () => {
             await axios
                 .get('https://wknd-take-home-challenge-api.herokuapp.com/testimonial')
                 .then(res => {
-                    const item = JSON.stringify(res.data)
-                    setTestimonial(item)
-                    // console.log(res)
+                    const items = JSON.stringify(res.data)
+                    console.log(items)
+                    items.forEach((item, i) => {
+                        // testi.push(<Testimonials
+                        //     key={'testimonial-' + i}
+                        //     item={item} />)
+                        setTestimonial(item)
+                    });
                 })
                 .catch(err => {
                     console.error(err)
@@ -24,14 +28,9 @@ const Body3 = () => {
 
     }, []);
 
-    if (testimonial.length > 0) {
-        testimonial.forEach((item, i) => {
-            console.log(item)
-            // testi.push(<Testimonials
-            //     key={'testimonial-' + i}
-            //     item={item} />)
-        });
-    }
+
+
+
     return (
         <div className='body3'>
             <div>
