@@ -45,18 +45,7 @@ const Body3 = () => {
             item={item} />)
     });
 
-    function SampleNextArrow(props) {
-        const { className, style, onClick } = props;
-        return (
-            <div
-                className={className}
-                style={{ ...style, display: "block" }}
-                onClick={onClick}
-            />
-        );
-    }
-
-    function SamplePrevArrow(props) {
+    function SampleArrow(props) {
         const { className, style, onClick } = props;
         return (
             <div
@@ -101,8 +90,8 @@ const Body3 = () => {
                 }
             }
         ],
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        nextArrow: <SampleArrow />,
+        prevArrow: <SampleArrow />
     };
 
     return (
