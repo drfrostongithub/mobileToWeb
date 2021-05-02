@@ -68,7 +68,7 @@ const Body3 = () => {
     }
 
     const settings = {
-        // className: "slider variable-width",
+        className: "slider variable-width",
         dots: true,
         infinite: true,
         speed: 500,

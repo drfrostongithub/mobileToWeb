@@ -1,8 +1,17 @@
 .testimonial {
+  color: #000000;
   padding: 20px;
-  background: #419be0;
+  margin: 10% 5% 0 5%;
+  background: #ffffff;
+  gap: 10%;
 }
 
-.slick-slide img {
-  margin: auto;
+// .slick-slide p {
+//   margin: auto;
+// }
+
+@media only screen and (min-width: 1224px) {
+  .testimonial {
+    margin: 5% 2%;
+  }
 }
