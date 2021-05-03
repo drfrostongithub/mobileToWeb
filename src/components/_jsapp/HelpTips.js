@@ -1,6 +1,4 @@
 const HelpTips = (props) => {
-    console.log(props.item)
-
 
     return (
         <div className='HelpTips'>
