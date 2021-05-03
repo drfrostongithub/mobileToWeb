@@ -1,9 +1,26 @@
 .body3 {
   color: #ffffff;
-  .list {
-    padding: 20% 10%;
-    .lower-body {
-      margin: -20% 0;
-    }
+  padding: 0 10%;
+  text-align: center;
+  min-height: inherit;
+
+  .slider {
+    // margin: -50% 0 0 0;
+    margin-top: -5%;
+    // h1 {
+    //   margin: 0 0 0 0;
+    // }
+  }
+
+  .non-slider {
+    display: grid;
+    grid-auto-rows: auto auto auto;
+    row-gap: 10%;
+  }
+
+  .lego-inverted {
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 }

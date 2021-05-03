@@ -4,14 +4,7 @@ const HelpTips = (props) => {
 
     return (
         <div className='HelpTips'>
-            <tr>
-                <td>
-                    {props.item.id}
-                </td>
-                <td>
-                    {props.item.title}
-                </td>
-            </tr>
+            <p>{props.item.title}</p>
         </div>
     );
 };
