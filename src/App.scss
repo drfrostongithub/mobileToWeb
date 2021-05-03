@@ -52,37 +52,18 @@ strong {
     background-position: top;
     background-size: auto;
     background-color: #eebece;
-    // min-height: inherit;
     min-height: calc(100vh + 10rem);
   }
 
   #background2 {
     background-color: #eebece;
     min-height: calc(80vh + 5rem);
-    // min-height: inherit;
   }
   #background3 {
     background-color: #000000;
-    // min-height: inherit;
-    min-height: calc(200vh + 5rem);
+    min-height: calc(300vh + 5rem);
   }
 }
-
-// .App {
-//   background-color: #eee;
-//   overflow-y: scroll; /* Add the ability to scroll */
-// }
-
-// /* Hide scrollbar for Chrome, Safari and Opera */
-// .App::-webkit-scrollbar {
-//     display: none;
-// }
-
-// /* Hide scrollbar for IE, Edge and Firefox */
-// .App {
-//   -ms-overflow-style: none;  /* IE and Edge */
-//   scrollbar-width: none;  /* Firefox */
-// }
 
 // For Landscaping
 @media only screen and (orientation: landscape) {
@@ -156,7 +137,7 @@ strong {
     }
 
     #background3 {
-      min-height: inherit;
+      min-height: calc(200vw + 15rem);
     }
   }
 }
@@ -173,24 +154,24 @@ strong {
     }
 
     #background3 {
-      min-height: inherit;
+      min-height: calc(150vw + 15rem);
     }
   }
 }
 
 // Galaxy Fold
-@media only screen and (min-width: 280px) and (max-height: 653px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+@media only screen and (min-width: 280px) and (max-height: 653px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
   .App {
     #background1 {
       min-height: inherit;
     }
 
     #background2 {
-      min-height: inherit;
+      min-height: calc(80vh + 5rem);
     }
 
     #background3 {
-      min-height: calc(400vh + 5rem);
+      min-height: calc(350vh + 5rem);
     }
   }
 }
@@ -207,7 +188,7 @@ strong {
     }
 
     #background3 {
-      min-height: calc(250vh + 5rem);
+      min-height: calc(400vh + 45rem);
     }
   }
 }

@@ -1,3 +1,31 @@
-.HelpTips {
-    
+.card {
+  width: 17rem;
+  height: 176px;
+  background-position: center;
+  background-size: cover;
+
+  .title {
+    background: #000000;
+    opacity: 0.5;
+    display: grid;
+    grid-template-columns: 220px auto;
+    position: relative;
+    top: 70%;
+    width: 100%;
+    height: 30%;
+    place-items: center;
+
+    p {
+      text-align: left;
+      padding-left: 5%;
+    }
+    .fa-arrow-right {
+      padding: 10%;
+      color: #0b24fb;
+      opacity: 1;
+      background-color: #ffffff;
+      border-radius: 50px;
+      object-fit: contain;
+    }
+  }
 }

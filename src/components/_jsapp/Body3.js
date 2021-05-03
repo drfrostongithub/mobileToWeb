@@ -60,6 +60,7 @@ const Body3 = () => {
     const settings = {
         className: "slider variable-width",
         dots: true,
+        lazyLoad: true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
@@ -99,7 +100,7 @@ const Body3 = () => {
 
         <div className="body3">
             <div className="slider">
-                <h1>
+                <h1 className="slider">
                     Testimonial
                     </h1>
                 <Slider {...settings}>
@@ -129,7 +130,7 @@ const Body3 = () => {
                     </p>
                 </div>
 
-                <div className="quote">
+                <div className="quote helpTips">
                     <h1>
                         Help & Tips
                     </h1>
