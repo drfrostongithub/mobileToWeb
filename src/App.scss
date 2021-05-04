@@ -87,24 +87,24 @@ strong {
   }
 }
 
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 40rem) {
-  .App {
-    #background1 {
-      background-position: top;
-      background-size: cover;
-      min-height: calc(75vw + 5rem);
-    }
+// /* Desktops and laptops ----------- */
+// @media only screen and (min-width: 40rem) {
+//   .App {
+//     #background1 {
+//       background-position: top;
+//       background-size: cover;
+//       min-height: calc(75vw + 5rem);
+//     }
 
-    #background2 {
-      min-height: calc(50vw + 10rem);
-    }
+//     #background2 {
+//       min-height: calc(50vw + 10rem);
+//     }
 
-    #background3 {
-      min-height: inherit;
-    }
-  }
-}
+//     #background3 {
+//       min-height: inherit;
+//     }
+//   }
+// }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
@@ -120,7 +120,7 @@ strong {
     }
 
     #background3 {
-      min-height: inherit;
+      min-height:  calc(50vw + 5rem);;
     }
   }
 }

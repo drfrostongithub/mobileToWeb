@@ -15,6 +15,11 @@
     display: grid;
     grid-auto-rows: auto auto auto auto;
     row-gap: 10%;
+
+    .quote {
+      position: relative;
+      z-index: 2;
+    }
   }
 
   .helpTips {
@@ -24,12 +29,14 @@
     .card-group {
       display: grid;
       gap: 5%;
-      // margin-top: 5%;
+      position: relative;
+      z-index: 3;
     }
     .pinkNut {
       display: none;
       position: absolute;
       right: 0;
+      z-index: 0;
     }
     h1 {
       justify-self: left;
@@ -42,23 +49,46 @@
   }
 }
 
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 40rem) {
+// For Landscaping
+@media only screen and (orientation: landscape) {
   .body3 {
+    text-align: center;
     .helpTips {
       .card-group {
-        // margin-top: -10%;
+        display: grid;
+        justify-items: center;
+      }
+    }
+  }
+}
+
+// /* Desktops and laptops ----------- */
+// @media only screen and (min-width: 40rem) {
+//   .body3 {
+//     .helpTips {
+//       .card-group {
+//         display: flex;
+//       }
+//       .pinkNut {
+//         display: block;
+//       }
+//     }
+//   }
+// }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  .body3 {
+    .helpTips {
+      display: flex;
+      flex-direction: column;
+      .card-group {
         display: flex;
-        // grid-auto-rows: auto auto auto;
-        // row-gap: 15%;
+        justify-content: center;
       }
       .pinkNut {
         display: block;
       }
     }
   }
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
 }

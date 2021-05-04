@@ -29,3 +29,10 @@
     }
   }
 }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  .card {
+    width: 20rem;
+  }
+}

@@ -121,7 +121,9 @@ const Body3 = () => {
         <div className='quote helpTips'>
           <h1>Help & Tips</h1>
           <div className='card-group'>{helpandtips}</div>
-          <img className='pinkNut' src={PinkNut} alt='pink-nut' />
+          <div className='pinkNut'>
+            <img className='imgPink' src={PinkNut} alt='pink-nut' />
+          </div>
         </div>
 
         <div className='quote'>
