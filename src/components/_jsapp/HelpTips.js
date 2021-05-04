@@ -1,5 +1,4 @@
 const HelpTips = (props) => {
-    // console.log(props)
     return (
         <div
             className='card'
@@ -7,10 +6,11 @@ const HelpTips = (props) => {
                 backgroundImage: `url(${props.item.image})`
             }}
         >
-            <div
-                className="title">
+            <div className="title">
                 <p>{props.item.title}</p>
-                <i className="fa fa-arrow-right" aria-hidden="true"></i>
+                <a href="/">
+                    <i className="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
     );

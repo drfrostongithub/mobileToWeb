@@ -4,14 +4,22 @@
   text-align: left;
   min-height: inherit;
 
+  display: inline-flex;
+  flex-direction: column;
   .slider {
     display: grid;
     position: relative;
     top: -7vh;
+
+    .title {
+      display: inline;
+      position: inherit;
+      top: -7vh;
+    }
   }
 
   .non-slider {
-    margin-top: -10%;
+    margin-top: -6%;
     display: grid;
     grid-auto-rows: auto auto auto auto;
     row-gap: 10%;
@@ -58,6 +66,11 @@
 @media only screen and (orientation: landscape) {
   .body3 {
     text-align: center;
+    .slider {
+      .title {
+        top: -3vh;
+      }
+    }
     .helpTips {
       .card-group {
         display: grid;
@@ -71,6 +84,7 @@
 @media only screen and (min-width: 1224px) {
   .body3 {
     .non-slider {
+      grid-row-gap: 20%;
       .quote {
         p {
           margin: 0 20%;

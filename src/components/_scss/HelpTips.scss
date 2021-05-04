@@ -19,12 +19,12 @@
       text-align: left;
       padding-left: 5%;
     }
-    .fa-arrow-right {
+    a {
       padding: 10%;
       color: $colourBlue;
-      opacity: 1;
+      opacity: revert;
       background-color: $colourWhite;
-      border-radius: 50px;
+      border-radius: 50%;
       object-fit: contain;
     }
   }

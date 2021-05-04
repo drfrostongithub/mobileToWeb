@@ -12,7 +12,7 @@ main {
       h1 {
         font-size: 52px;
       }
-      .start-lego {
+      .welcome-lego {
         color: #000000;
         p {
           position: relative;
@@ -23,6 +23,11 @@ main {
             background-color: $colourWhite;
             border-radius: 29px;
             padding: 20px 83.5px 19px;
+          }
+
+          span:hover {
+            background-color: $colourRed;
+            padding: 10px 40px 10px;
           }
         }
       }

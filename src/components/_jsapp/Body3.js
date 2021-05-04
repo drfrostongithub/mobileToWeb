@@ -93,7 +93,7 @@ const Body3 = () => {
   return (
     <div className='body3'>
       <div className='slider'>
-        <h1 className='slider'>Testimonial</h1>
+        <h1 className='title'>Testimonial</h1>
         <Slider {...settings}>{testi}</Slider>
       </div>
       <div className='non-slider'>

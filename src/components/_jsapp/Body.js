@@ -13,18 +13,18 @@ const Body = () => {
                         </p>
                     </div>
                     <div className="welcome-lego">
-                        <a href='/' className='start-lego'>
-                            <img src={Lego} alt='img' />
-                            <p>
-                                <span>
+                        <img src={Lego} alt='img' />
+                        <p>
+                            <span>
+                                <a href="/" onClick=''>
                                     Let's Go!
+                                </a>
                             </span>
-                            </p>
-                        </a>
+                        </p>
                     </div>
                 </div>
             </div>
-        </main>
+        </main >
     )
 }
 

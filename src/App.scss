@@ -2,6 +2,7 @@ $colourBlack: #000000;
 $colourWhite: #ffffff;
 $colourPink: #eebece;
 $colourBlue: #0b24fb;
+$colourRed: rgba(247, 98, 60, 0.938);
 
 * {
   margin: 0;
@@ -105,7 +106,7 @@ strong {
     }
 
     #background3 {
-      min-height: calc(50vw + 5rem);
+      min-height: calc(70vw + 5rem);
     }
   }
 }
