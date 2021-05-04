@@ -1,6 +1,6 @@
 const Testimonials = (props) => {
     return (
-        <div className='testimonial'>
+        <div className='testimonial-group'>
             <div className='testimony'>
                 <h1>
                     {props.item.by}

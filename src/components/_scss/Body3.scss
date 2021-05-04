@@ -1,6 +1,6 @@
 .body3 {
   color: $colourWhite;
-  padding: 0 15%;
+  padding: 0 10%;
   text-align: left;
   min-height: inherit;
 
@@ -19,6 +19,10 @@
     .quote {
       position: relative;
       z-index: 2;
+      display: inherit;
+      grid-auto-columns: inherit;
+      row-gap: inherit;
+      bottom: 5%;
     }
   }
 
@@ -26,6 +30,7 @@
     display: grid;
     justify-items: center;
     position: relative;
+    // bottom: 5%;
     .card-group {
       display: grid;
       gap: 5%;
@@ -65,15 +70,28 @@
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   .body3 {
-    .helpTips {
-      display: flex;
-      flex-direction: column;
-      .card-group {
-        display: flex;
-        justify-content: center;
+    .non-slider {
+      .quote {
+        p {
+          margin: 0 20%;
+        }
       }
-      .pinkNut {
-        display: block;
+      .helpTips {
+        display: flex;
+        flex-direction: column;
+        .card-group {
+          display: flex;
+          justify-content: center;
+        }
+        .pinkNut {
+          display: block;
+        }
+        h1 {
+          justify-self: center;
+        }
+        p {
+          margin: 0;
+        }
       }
     }
   }
