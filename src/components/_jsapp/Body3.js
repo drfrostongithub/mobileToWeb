@@ -54,7 +54,6 @@ const Body3 = () => {
 
   const settings = {
     className: "slider variable-width",
-    dots: true,
     lazyLoad: true,
     infinite: true,
     speed: 500,
@@ -65,7 +64,7 @@ const Body3 = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 3.5,
           slidesToScroll: 3,
           infinite: true,
           dots: true,
@@ -74,7 +73,7 @@ const Body3 = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1.5,
           slidesToScroll: 2,
           initialSlide: 2,
         },

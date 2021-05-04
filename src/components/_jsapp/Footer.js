@@ -6,7 +6,7 @@ export default function Footer() {
           <p><span>wknd@</span>2020</p>
         </div>
 
-        <div className='social-media-links'>
+        <div className='version'>
           <p>Alpha version 0.1</p>
         </div>
       </div>

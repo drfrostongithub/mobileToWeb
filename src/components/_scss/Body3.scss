@@ -1,6 +1,6 @@
 .body3 {
-  color: #ffffff;
-  padding: 0 10%;
+  color: $colourWhite;
+  padding: 0 15%;
   text-align: left;
   min-height: inherit;
 
@@ -61,20 +61,6 @@
     }
   }
 }
-
-// /* Desktops and laptops ----------- */
-// @media only screen and (min-width: 40rem) {
-//   .body3 {
-//     .helpTips {
-//       .card-group {
-//         display: flex;
-//       }
-//       .pinkNut {
-//         display: block;
-//       }
-//     }
-//   }
-// }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {

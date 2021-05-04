@@ -3,14 +3,12 @@
   grid-auto-rows: auto auto auto;
   grid-row-gap: 15%;
   margin: -20% 0 0 0;
-  // min-height: inherit;
   .lego {
     display: flex;
     flex-direction: row-reverse;
   }
 
   .quote {
-    // border: 1px solid black;
     margin: 0 10%;
     text-align: right;
     display: grid;
@@ -19,15 +17,14 @@
       font-weight: 600;
     }
     b {
-      color: #0b24fb;
+      color: $colourBlue;
     }
     i {
-      color: #ffffff;
+      color: $colourWhite;
     }
   }
 
   .bluedot {
-    // border: 1px solid black;
     margin: 0 0 0 15%;
   }
 }

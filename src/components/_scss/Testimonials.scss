@@ -2,11 +2,15 @@
   text-align: left;
   color: #000000;
   width: auto;
-  height: 100px;
-  padding: 10px;
+  height: 150px;
+  padding: 5%;
   margin: 10% 5% 0 5%;
   background: #ffffff;
-  // gap: 10%;
+
+  .testimony {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .slick-slide p {

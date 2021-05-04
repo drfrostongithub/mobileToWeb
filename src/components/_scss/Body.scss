@@ -5,7 +5,7 @@ main {
     text-align: center;
     margin: 15% 0 0 0;
     .jumbotron {
-      color: #ffffff;
+      color: $colourWhite;
       display: grid;
       grid-auto-rows: 100px 100px 1fr;
       grid-row-gap: 40%;
@@ -18,9 +18,9 @@ main {
           position: relative;
           top: -90%;
           span {
-            border: 1px solid white;
+            border: 1px solid $colourWhite;
             font-size: 16px;
-            background-color: #ffffff;
+            background-color: $colourWhite;
             border-radius: 29px;
             padding: 20px 83.5px 19px;
           }
@@ -41,7 +41,6 @@ main {
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* STYLES GO HERE */
   main {
     .main {
       margin: 5% 0 0 0;
@@ -51,7 +50,6 @@ main {
 
 /* iPhone 5 (portrait & landscape)----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  /* STYLES GO HERE */
   main {
     .main {
       .jumbotron {
@@ -62,7 +60,6 @@ main {
 }
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 653px) {
-  /* STYLES GO HERE */
   main {
     .main {
       .jumbotron {
